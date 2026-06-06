@@ -1,0 +1,7 @@
+[package]
+name = "federated-ternary"
+version = "0.1.0"
+edition = "2021"
+description = "Experiment: federated ternary learning. Multiple nodes train ternary weights locally, merge via element-wise majority vote (CRDT-style). Byzantine tolerance, commutative/idempotent merge."
+license = "Apache-2.0"
+repository = "https://github.com/SuperInstance/federated-ternary"
